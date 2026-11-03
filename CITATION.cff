@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  If this repository helps you, you may cite it as below. It is an informal,
+  work-in-progress synthesis of published research, written with Claude, an AI
+  assistant by Anthropic. It is not an official standard, not peer-reviewed,
+  and not a new result.
+title: "business (work in progress)"
+abstract: >-
+  The front page of a family of repositories on business and economics: the business a venture needs, the economics that serves it, and behavioural economics. The map, the shared words, and the rule of one repository per problem with nothing private. Scope only.
+type: software
+authors:
+  - name: "Tewf"
+repository-code: "https://github.com/Tewf/business"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - business model
+  - pricing
+  - behavioural economics
+  - entrepreneurship
+  - documentation
+  - literature review
