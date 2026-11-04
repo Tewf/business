@@ -3,6 +3,13 @@
 The releases this repository pins, newest first, in the form of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 A pin move is recorded here, not in decisions/.
 
+## [0.1.0] - 2026-11-04
+
+### Added
+
+- The first reviewed release. It holds the front page of the family, its scope and its pointers to the member repositories.
+- Tag v0.1.0 and a GitHub release of the same name.
+
 ## 2026-11-04
 
 ### Added
