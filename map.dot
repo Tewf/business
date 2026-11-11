@@ -1,5 +1,5 @@
 // The map of the business-and-economics family. Colours: business family purple, AI-augmented family green, reader-ergonomics family blue;
-// this page, the hub, has the thick border and nothing points to it. An arrow reads: uses, or links to.
+// this page, the hub, has the thick border and nothing points to it. An arrow reads: uses, or links to; a dashed one, links for what that member holds.
 digraph map {
   graph [rankdir=TB, nodesep=0.45, ranksep=0.55, bgcolor="white", pad=0.2, fontname="Inter"];
   node  [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, margin="0.2,0.1", penwidth=1.5, fontcolor="#1F2328"];
@@ -12,6 +12,7 @@ digraph map {
     business_finance [label=<<b>business-finance</b><br/><font point-size="11" color="#55575F">cash, runway, funding</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
     business_behavioral [label=<<b>business-behavioral</b><br/><font point-size="11" color="#55575F">what behavioural economics measured</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
     business_market [label=<<b>business-market</b><br/><font point-size="11" color="#55575F">market, competition, platforms</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
+    business_organisation [label=<<b>business-organisation</b><br/><font point-size="11" color="#55575F">what a company is, as an organisation</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
   }
   HUB [label=<<b>business</b><br/><font point-size="11" color="#55575F">the hub: map, words, rules</font>>, fillcolor="#F1EAF7", color="#7A4FA3", penwidth=2.6];
   AP [label=<<b>ai-augmented-project</b><br/><font point-size="11" color="#55575F">the method</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
@@ -19,12 +20,18 @@ digraph map {
   RE [label=<<b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">the standard</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
   HUB -> business_model [style=invis];
   HUB -> business_finance [style=invis];
+  HUB -> business_organisation [style=invis];
   business_model -> business_pricing [label=" links"];
   business_model -> business_market [label=" links"];
   business_finance -> business_model [label=" reads its numbers"];
   business_pricing -> business_customer [label=" links"];
   business_pricing -> business_behavioral [label=" links"];
   business_market -> business_customer [label=" links"];
+  business_organisation -> business_model [style=dashed];
+  business_organisation -> business_finance [style=dashed];
+  business_organisation -> business_customer [style=dashed];
+  business_organisation -> business_pricing [style=dashed];
+  business_organisation -> business_market [style=dashed];
   business_customer -> business_behavioral [label=" links"];
   business_behavioral -> AP [style=invis];
   business_behavioral -> RV [style=invis];

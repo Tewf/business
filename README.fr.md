@@ -16,14 +16,14 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
 
 ## La carte
 
-![La carte de la famille économie et entreprise : le centre au-dessus de six membres ; business-model lie business-pricing et business-market, business-finance lit business-model, business-pricing lie business-customer et business-behavioral ; les membres suivent la méthode d'ai-augmented-project et les formes de revue de reader-ergonomics-review, qui obéissent à la norme.](map.svg)
+![La carte de la famille économie et entreprise : le centre au-dessus de sept membres ; business-model lie business-pricing et business-market, business-finance lit business-model, business-pricing lie business-customer et business-behavioral, business-organisation renvoie à cinq membres pour ce qu'ils tiennent ; les membres suivent la méthode d'ai-augmented-project et les formes de revue de reader-ergonomics-review, qui obéissent à la norme.](map.svg)
 
 <details>
-<summary>Graphviz source</summary>
+<summary>Source Graphviz</summary>
 
 ```dot
 // The map of the business-and-economics family. Colours: business family purple, AI-augmented family green, reader-ergonomics family blue;
-// this page, the hub, has the thick border and nothing points to it. An arrow reads: uses, or links to.
+// this page, the hub, has the thick border and nothing points to it. An arrow reads: uses, or links to; a dashed one, links for what that member holds.
 digraph map {
   graph [rankdir=TB, nodesep=0.45, ranksep=0.55, bgcolor="white", pad=0.2, fontname="Inter"];
   node  [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, margin="0.2,0.1", penwidth=1.5, fontcolor="#1F2328"];
@@ -36,6 +36,7 @@ digraph map {
     business_finance [label=<<b>business-finance</b><br/><font point-size="11" color="#55575F">cash, runway, funding</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
     business_behavioral [label=<<b>business-behavioral</b><br/><font point-size="11" color="#55575F">what behavioural economics measured</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
     business_market [label=<<b>business-market</b><br/><font point-size="11" color="#55575F">market, competition, platforms</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
+    business_organisation [label=<<b>business-organisation</b><br/><font point-size="11" color="#55575F">what a company is, as an organisation</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
   }
   HUB [label=<<b>business</b><br/><font point-size="11" color="#55575F">the hub: map, words, rules</font>>, fillcolor="#F1EAF7", color="#7A4FA3", penwidth=2.6];
   AP [label=<<b>ai-augmented-project</b><br/><font point-size="11" color="#55575F">the method</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
@@ -43,12 +44,18 @@ digraph map {
   RE [label=<<b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">the standard</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
   HUB -> business_model [style=invis];
   HUB -> business_finance [style=invis];
+  HUB -> business_organisation [style=invis];
   business_model -> business_pricing [label=" links"];
   business_model -> business_market [label=" links"];
   business_finance -> business_model [label=" reads its numbers"];
   business_pricing -> business_customer [label=" links"];
   business_pricing -> business_behavioral [label=" links"];
   business_market -> business_customer [label=" links"];
+  business_organisation -> business_model [style=dashed];
+  business_organisation -> business_finance [style=dashed];
+  business_organisation -> business_customer [style=dashed];
+  business_organisation -> business_pricing [style=dashed];
+  business_organisation -> business_market [style=dashed];
   business_customer -> business_behavioral [label=" links"];
   business_behavioral -> AP [style=invis];
   business_behavioral -> RV [style=invis];
@@ -67,6 +74,7 @@ digraph map {
 | [business-finance](https://github.com/Tewf/business-finance) | trésorerie, autonomie, seuil de rentabilité et économie du financement d'une petite entreprise | périmètre posé le 2026-11-04 ; première revue non commencée |
 | [business-behavioral](https://github.com/Tewf/business-behavioral) | ce que l'économie comportementale a mesuré et qu'une entreprise peut employer honnêtement, avec le statut de réplication | périmètre posé le 2026-11-04 ; première revue non commencée |
 | [business-market](https://github.com/Tewf/business-market) | taille du marché, différenciation, concurrence, plateformes et économie de la personnalisation | périmètre posé le 2026-11-04 ; première revue non commencée |
+| [business-organisation](https://github.com/Tewf/business-organisation) | ce qu'est une entreprise en tant qu'organisation : les processus qu'elle fait tourner, les quatre problèmes d'organisation, les droits de décision, le traitement de l'information et l'adaptation | posé le 2026-11-11 ; première revue écrite, finie sur la référence B1 |
 
 En dehors de cette famille, deux dépôts tiennent ce que les membres emploient. La méthode (cadrer, revoir, fixer une référence, planifier) est celle d'[ai-augmented-project](https://github.com/Tewf/ai-augmented-project), et les formes d'une revue sont celles de [reader-ergonomics-review](https://github.com/Tewf/reader-ergonomics-review). Chaque membre obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/standard.md) (v1.21.0) et exécute ses vérifications en CI.
 
