@@ -118,14 +118,14 @@ The first three questions come first, because the others read their answers. The
 Not started. It frames the family before any member's review, and it is finished when it can name the baseline.
 
 1. **Frame:** what the field calls this family: business economics, managerial economics, entrepreneurial finance and entrepreneurship research are leads to verify. The prefix may change then.
-2. **Review:** whether the field draws the same six lines, found in its curricula and handbooks, surveys first.
+2. **Review:** whether the field draws the same seven lines, found in its curricula and handbooks, surveys first.
 3. **State of the art, and the case against.**
 4. **Position:** what this family asks that the field does not already answer.
 5. **Baseline:** the field's own division of the subject, set against this map.
 
 ## Questions the review must answer
 
-- **The split.** Does the field divide the subject into these six, and where does it draw a line elsewhere?
+- **The split.** Does the field divide the subject into these seven, and where does it draw a line elsewhere?
 - **The order.** Does the order of the first reviews match the order of dependence between the problems?
 - **Honest use.** Which rules for using behavioural economics on customers does the field already hold, and which does it leave open?
 

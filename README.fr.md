@@ -118,14 +118,14 @@ Les trois premières questions viennent d'abord, parce que les autres lisent leu
 Non commencée. Elle cadre la famille avant la revue de tout membre, et elle est finie quand elle peut nommer la référence.
 
 1. **Cadrer :** comment le domaine nomme cette famille : économie d'entreprise, économie managériale, finance entrepreneuriale et recherche en entrepreneuriat sont des pistes à vérifier. Le préfixe peut changer alors.
-2. **Revue :** si le domaine trace les mêmes six lignes, trouvé dans ses programmes et ses manuels, les synthèses d'abord.
+2. **Revue :** si le domaine trace les mêmes sept lignes, trouvé dans ses programmes et ses manuels, les synthèses d'abord.
 3. **État de l'art, et le dossier contre.**
 4. **Positionnement :** ce que cette famille demande et que le domaine ne répond pas déjà.
 5. **Référence :** la division du sujet par le domaine lui-même, mise face à cette carte.
 
 ## Questions auxquelles la revue doit répondre
 
-- **Le découpage.** Le domaine divise-t-il le sujet en ces six, et où trace-t-il une ligne ailleurs ?
+- **Le découpage.** Le domaine divise-t-il le sujet en ces sept, et où trace-t-il une ligne ailleurs ?
 - **L'ordre.** L'ordre des premières revues suit-il l'ordre de dépendance entre les problèmes ?
 - **Usage honnête.** Quelles règles d'emploi de l'économie comportementale sur les clients le domaine tient-il déjà, et lesquelles laisse-t-il ouvertes ?
 
