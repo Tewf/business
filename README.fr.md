@@ -76,7 +76,7 @@ digraph map {
 | [business-market](https://github.com/Tewf/business-market) | taille du marché, différenciation, concurrence, plateformes et économie de la personnalisation | périmètre posé le 2026-11-04 ; première revue non commencée |
 | [business-organisation](https://github.com/Tewf/business-organisation) | ce qu'est une entreprise en tant qu'organisation : les fonctions qu'elle doit remplir, les rôles et la structure qui les remplissent, sa description comme système de traitement de l'information, et son adaptation | posé le 2026-11-11 ; première revue le 2026-11-11, B1 nommée |
 
-En dehors de cette famille, deux dépôts tiennent ce que les membres emploient. La méthode (cadrer, revoir, fixer une référence, planifier) est celle d'[ai-augmented-project](https://github.com/Tewf/ai-augmented-project), et les formes d'une revue sont celles de [reader-ergonomics-review](https://github.com/Tewf/reader-ergonomics-review). Chaque membre obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/standard.md) (v1.21.0) et exécute ses vérifications en CI.
+En dehors de cette famille, deux dépôts tiennent ce que les membres emploient. La méthode (cadrer, revoir, fixer une référence, planifier) est celle d'[ai-augmented-project](https://github.com/Tewf/ai-augmented-project), et les formes d'une revue sont celles de [reader-ergonomics-review](https://github.com/Tewf/reader-ergonomics-review). Chaque membre obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/standard.md) (v1.24.2) et exécute ses vérifications en CI.
 
 ## Les règles
 
