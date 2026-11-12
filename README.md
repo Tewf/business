@@ -16,7 +16,7 @@ This page in French: [README.fr.md](README.fr.md).
 
 ## The map
 
-![The map of the business-and-economics family: the hub above seven members; business-model links business-pricing and business-market, business-finance reads business-model, business-pricing links business-customer and business-behavioral, business-organisation links five members for what they hold; members follow ai-augmented-project's method and the review shapes of reader-ergonomics-review, which obey the standard.](map.svg)
+![The map of the business-and-economics family: the hub above seven members; business-model links business-pricing and business-market, business-finance reads business-model, business-pricing links business-customer and business-behavioral, business-organization-design links five members for what they hold; members follow ai-augmented-project's method and the review shapes of reader-ergonomics-review, which obey the standard.](map.svg)
 
 <details>
 <summary>Graphviz source</summary>
@@ -36,7 +36,7 @@ digraph map {
     business_finance [label=<<b>business-finance</b><br/><font point-size="11" color="#55575F">cash, runway, funding</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
     business_behavioral [label=<<b>business-behavioral</b><br/><font point-size="11" color="#55575F">what behavioural economics measured</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
     business_market [label=<<b>business-market</b><br/><font point-size="11" color="#55575F">market, competition, platforms</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
-    business_organisation [label=<<b>business-organisation</b><br/><font point-size="11" color="#55575F">what a company is, as an organisation</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
+    business_organization_design [label=<<b>business-organization-design</b><br/><font point-size="11" color="#55575F">what a company is, as an organisation</font>>, fillcolor="#F1EAF7", color="#7A4FA3"];
   }
   HUB [label=<<b>business</b><br/><font point-size="11" color="#55575F">the hub: map, words, rules</font>>, fillcolor="#F1EAF7", color="#7A4FA3", penwidth=2.6];
   AP [label=<<b>ai-augmented-project</b><br/><font point-size="11" color="#55575F">the method</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
@@ -44,18 +44,18 @@ digraph map {
   RE [label=<<b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">the standard</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
   HUB -> business_model [style=invis];
   HUB -> business_finance [style=invis];
-  HUB -> business_organisation [style=invis];
+  HUB -> business_organization_design [style=invis];
   business_model -> business_pricing [label=" links"];
   business_model -> business_market [label=" links"];
   business_finance -> business_model [label=" reads its numbers"];
   business_pricing -> business_customer [label=" links"];
   business_pricing -> business_behavioral [label=" links"];
   business_market -> business_customer [label=" links"];
-  business_organisation -> business_model [style=dashed];
-  business_organisation -> business_finance [style=dashed];
-  business_organisation -> business_customer [style=dashed];
-  business_organisation -> business_pricing [style=dashed];
-  business_organisation -> business_market [style=dashed];
+  business_organization_design -> business_model [style=dashed];
+  business_organization_design -> business_finance [style=dashed];
+  business_organization_design -> business_customer [style=dashed];
+  business_organization_design -> business_pricing [style=dashed];
+  business_organization_design -> business_market [style=dashed];
   business_customer -> business_behavioral [label=" links"];
   business_behavioral -> AP [style=invis];
   business_behavioral -> RV [style=invis];
@@ -74,7 +74,7 @@ digraph map {
 | [business-finance](https://github.com/Tewf/business-finance) | cash, runway, break-even and the economics of funding for a small venture | scope set out 2026-11-04; first review not started |
 | [business-behavioral](https://github.com/Tewf/business-behavioral) | what behavioural economics measured that a venture can use honestly, with replication status | scope set out 2026-11-04; first review not started |
 | [business-market](https://github.com/Tewf/business-market) | market sizing, differentiation, competition, platforms and the economics of personalisation | scope set out 2026-11-04; first review not started |
-| [business-organisation](https://github.com/Tewf/business-organisation) | what a company is, as an organisation: the functions it must perform, the roles and structure that perform them, how it is written as an information-processing system, and how it adapts | set out 2026-11-11; first review 2026-11-11, B1 accepted 2026-11-12; first shape, the organisation description |
+| [business-organization-design](https://github.com/Tewf/business-organization-design) | what a company is, as an organisation: the functions it must perform, the roles and structure that perform them, how it is written as an information-processing system, and how it adapts | set out 2026-11-11; first review 2026-11-11, B1 accepted 2026-11-12; first shape, the organisation description |
 
 Outside this family, two repositories hold what the members use. The method (scope, review, baseline, plan) is [ai-augmented-project](https://github.com/Tewf/ai-augmented-project)'s, and the shapes of a review are [reader-ergonomics-review](https://github.com/Tewf/reader-ergonomics-review)'s. Every member obeys [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/standard.md) (v1.24.2) and runs its checks in CI.
 
