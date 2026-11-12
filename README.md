@@ -70,11 +70,11 @@ digraph map {
 |---|---|---|
 | [business-model](https://github.com/Tewf/business-model) | how a venture's model is written and tested: value, customers, channels, revenue, costs, unit economics | scope set out 2026-11-04; first review not started |
 | [business-pricing](https://github.com/Tewf/business-pricing) | how a price is set and tested: willingness to pay, personalised pricing, anchors | scope set out 2026-11-04; first review not started |
-| [business-customer](https://github.com/Tewf/business-customer) | customer discovery and demand estimation: interviews, surveys, experiments, choice models | scope set out 2026-11-04; first review not started |
+| [business-customer](https://github.com/Tewf/business-customer) | customer discovery and demand estimation: interviews, surveys, experiments, choice models | scope set out 2026-11-04; first review 2026-11-04, B1 named |
 | [business-finance](https://github.com/Tewf/business-finance) | cash, runway, break-even and the economics of funding for a small venture | scope set out 2026-11-04; first review not started |
 | [business-behavioral](https://github.com/Tewf/business-behavioral) | what behavioural economics measured that a venture can use honestly, with replication status | scope set out 2026-11-04; first review not started |
 | [business-market](https://github.com/Tewf/business-market) | market sizing, differentiation, competition, platforms and the economics of personalisation | scope set out 2026-11-04; first review not started |
-| [business-organisation](https://github.com/Tewf/business-organisation) | what a company is, as an organisation: the functions it must perform, the roles and structure that perform them, how it is written as an information-processing system, and how it adapts | set out 2026-11-11; first review not started |
+| [business-organisation](https://github.com/Tewf/business-organisation) | what a company is, as an organisation: the functions it must perform, the roles and structure that perform them, how it is written as an information-processing system, and how it adapts | set out 2026-11-11; first review 2026-11-11, B1 named |
 
 Outside this family, two repositories hold what the members use. The method (scope, review, baseline, plan) is [ai-augmented-project](https://github.com/Tewf/ai-augmented-project)'s, and the shapes of a review are [reader-ergonomics-review](https://github.com/Tewf/reader-ergonomics-review)'s. Every member obeys [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/standard.md) (v1.21.0) and runs its checks in CI.
 
